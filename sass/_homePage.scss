@@ -1,0 +1,47 @@
+
+
+.homePage-content__name{
+    //font-family: "eurostile",sans-serif;
+    font-weight: 800;
+   
+    color: var(--color-grey-title);
+     text-align: center;
+     display: block;
+    font-size: 2.5rem;
+    font-weight: 400;
+    letter-spacing: 1.5rem;
+    animation-name: moveRight;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    backface-visibility: hidden;
+ }
+
+ .homePage-content__desc{
+    letter-spacing: 1.75rem;
+    text-align: center;
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1.75rem;
+    animation-name: moveLeft;
+    animation-duration: 3s;
+    animation-timing-function: ease-out; 
+    backface-visibility: hidden;
+ }
+.heading-primary{
+ text-transform: uppercase;
+  margin-bottom: 6rem;
+  backface-visibility: hidden;
+}
+
+.homePage-content__img{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+   align-self: center;
+    margin: 5rem;
+    width:"498";
+     height:"309";
+    max-width: 100%;
+}
+

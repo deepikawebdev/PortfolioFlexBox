@@ -1,0 +1,29 @@
+#aboutMe{
+    
+    background-color: var(--color-primary-yellow);
+    -webkit-clip-path: polygon(0 26%, 100% 0, 100% 80%, 0 100%);
+clip-path: polygon(0 26%, 100% 0, 100% 100%, 0 100%);
+padding-top: 1px;
+  padding: 10rem;
+  display: inline-flex;
+    flex-direction: row;
+    align-content: center;
+   align-self: center;
+  ////margin-top: -24vh;
+}
+.aboutMe__content_mainContent{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+   align-self: center;
+  
+}
+
+.aboutMe__content_img{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+   align-self: center;
+   max-width: 100%;
+   
+}
