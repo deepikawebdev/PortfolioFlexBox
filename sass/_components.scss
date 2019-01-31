@@ -1,23 +1,22 @@
-.clearfix {
-    &::after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-}
+
 h2{
     font-size: 3rem;
   font-weight: 700;
   letter-spacing: .3rem;
   text-transform: uppercase;
-    margin: 8rem;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
+    
+
     text-align: center;
+    
     color: var(--color-primary-red);
 }
 
+h3.h3__footer{
+    text-align: center;
+    letter-spacing: 1rem;
+    margin-bottom: 1rem;
+    color: var(--color-primary-yellow);
+  }
 .responsiveImg{
     
         width: 100%;
@@ -25,3 +24,17 @@ h2{
       
 }
  
+.row{
+    display: flex;
+}
+
+.col{
+    
+    
+    align-content: center;
+   align-self: center;
+}
+
+.green{
+    color: var(--color-primary-bluegreen);
+}

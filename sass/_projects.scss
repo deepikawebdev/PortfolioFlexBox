@@ -1,0 +1,38 @@
+#projects{
+ 
+   background-color: var(--color-white);
+/*   
+-webkit-clip-path: polygon(0 0, 100% 0%, 100% 72%, 0% 100%);
+clip-path: polygon(0 0, 100% 0%, 100% 72%, 0% 100%);*/
+}
+.projects__row{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   width: 80%;
+}
+.projects__col{
+display: flex;
+flex-direction: row;
+flex-basis: 100%;
+}
+.project__desc{
+   
+   display: inline-block;
+   font-size: 1.8rem;
+   margin: 3rem;
+   /*margin-top: 2rem;
+   margin-right: 7rem;
+   margin-bottom: 3rem;*/
+}
+.projectImg{
+   margin: 3rem;
+ }
+.btn--project--github{
+   margin-left: 20rem;
+   background-color: var(--color-primary-red);
+}
+.btn--project--website{
+   
+   margin-right: 7rem;
+}
