@@ -1,4 +1,5 @@
 @import "sass/base";
+@import "sass/mixin";
 @import "sass/layout";
 @import "sass/components";
 @import "sass/header";
@@ -6,4 +7,16 @@
 
 @import "sass/animations";
 @import "sass/aboutMe";
+
+
+@import "sass/featurebox";
+@import "sass/projects";
+@import "sass/rows";
+
 @import "sass/services";
+@import "sass/buttons";
+
+
+@import "sass/form";
+@import "sass/contactMe";
+@import "sass/footer";

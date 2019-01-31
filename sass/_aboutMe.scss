@@ -5,12 +5,13 @@
 clip-path: polygon(0 26%, 100% 0, 100% 100%, 0 100%);
 padding-top: 1px;
   padding: 10rem;
-  display: inline-flex;
-    flex-direction: row;
+  /*display: flex;
+    
     align-content: center;
    align-self: center;
-  ////margin-top: -24vh;
+  ////margin-top: -24vh;*/
 }
+
 .aboutMe__content_mainContent{
     display: flex;
     flex-direction: row;
@@ -24,6 +25,12 @@ padding-top: 1px;
     flex-direction: column;
     align-content: center;
    align-self: center;
+   margin-top: 6rem;
+   margin-bottom: 3rem;
    max-width: 100%;
    
+}
+
+.aboutMe__h2{
+    margin-top: 8rem;
 }
