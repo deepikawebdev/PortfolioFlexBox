@@ -1,0 +1,30 @@
+#contactMe{
+    background-color: var(--color-primary-yellow);
+    -webkit-clip-path: polygon(0 16%, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 16%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.contactME__row{
+    display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+   
+    align-items: center;
+   justify-content: center; 
+}
+.contactFormDiv__col {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 80%;
+    
+    width: 80%;
+    
+    margin-top: 3rem;
+    background-image: linear-gradient(15deg, rgba(var(--color-primary-yellow), 0.9) 0%, rgba(var(--color-primary-offWhite), 0.9) 100%, transparent 70%);
+    background-size: cover;
+    height: 49rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.3);
+
+}
